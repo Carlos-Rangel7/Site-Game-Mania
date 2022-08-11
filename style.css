@@ -1,0 +1,377 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+
+}
+
+.imagens {
+  height: 118%;
+  margin: 0 auto;
+  background-color: #041394;
+}
+
+  .logo {
+    font-size: 55px;
+    width: 20%;
+}
+   
+.cadastro {
+  width: 10%;
+  font-size: 10%px;
+  height: 10%;
+    position: absolute;
+  left: 695px;
+  margin: 20px;
+}
+
+.login {
+  color: rgb(192, 237, 237);
+  font-size: 15px;
+  margin: 30px;
+  left: 788px;
+  position: absolute;
+}
+
+ .ouvidoria {
+  margin: 28px;
+  position: absolute;
+  left: 970px;
+  height: 150%;
+}
+
+.carrinho {
+  margin: 28px;
+  height: 17%;
+  position: absolute;
+  left: 1090px;
+  
+}
+
+.search-box {
+  margin: 0px;
+  position: absolute;
+  left: 300px;
+  top: 32px;
+ /* transform: translate(-5%, -30%);*/
+  border-radius: 40px;
+  background: hsla(0, 0%, 1%, 0.395);
+  padding: 10px;
+  height: 50px;
+}
+
+  .search-bnt {
+   /* color: rgba(10, 10, 9, 0.823);*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   .search-txt {
+     border: none;
+     background: none;
+     outline: none;
+     float: left;
+     padding: -5px;
+     color: white;
+     width: 300px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 19px;
+}
+
+     .banner {
+    background-image: url(Imagens/promoção2.svg.svg);
+    width: 1349px;
+    height: 383px;
+  }   
+  
+  
+  
+  .lupa {
+    height: 27px;
+    width: 30px;
+    position: absolute;
+}
+  .fifa {
+    height: 300px;
+    width: 300px;
+   position: relative;
+    right: 10px;
+    left: 30px;
+    margin: 15px;
+}
+  .last {
+    height:300px;
+    width: 300px;
+    position: absolute;
+    left: 700px;
+    margin: -320px;
+
+}
+  .aranha {
+    height:305px;
+    width: 305px;
+    position: absolute;
+    left: 1040px;
+    margin: -338px;
+}
+  .gta {
+    height:300px;
+    width: 300px;
+    position: absolute;
+    left: 1380px;
+    margin: -365px;
+}
+  .cred {
+    height:295px;
+    width: 295px;
+    position: absolute;
+    left: 35px;
+    margin: 40px;
+}
+  .kombat {
+    height:300px;
+    width: 300px;
+    position: absolute;
+    left: 360px;
+    margin: 20px;
+}
+  .ring {
+    height:305px;
+    width: 305px;
+    position: absolute;
+    left: 710px;
+    margin: -0px;
+}
+  .battlefield {
+    height:310px;
+    width: 310px;
+    position: absolute;
+    left: 1045px;
+    margin: -30px;
+}
+  .sessao {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 120px;
+    position: absolute;
+    margin: -15px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+  .sessao1 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 433px;
+    position: absolute;
+    margin: -15px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+  .sessao2 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 775px;
+    position: absolute;
+    margin: -30px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+  .sessao3 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 1115px;
+    position: absolute;
+    margin: -55px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+  .sessao4 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: -235px;
+    position: absolute;
+    margin: 340px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+  .sessao5 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 95px;
+    position: absolute;
+    margin: 325px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+  .sessao6 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 430px;
+    position: absolute;
+    margin: 310px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+  .sessao7 {
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 230px;
+    height: 70px;
+    left: 775px;
+    position: absolute;
+    margin: 285px;
+    color: rgb(240, 240, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+  .outside {
+    background-color: black;
+    height: 350px;
+    margin:  400px auto;
+}
+  .nomes2 {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+   margin: 20px;
+   left: 90px;
+   position: absolute;
+}
+    .nomes {
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     margin: 80px;
+     line-height: 60px;
+     position: absolute;
+}
+  .banner2 {
+    margin: -10px;
+    left: 800px;
+    position: absolute;
+    width: 500px;
+    
+}
+  .duvidas {
+    color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 40px;
+     margin: -370px;
+     left: 500px;
+     position: absolute;
+}
+  .duvidas2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: -300px;
+    left: 400px;
+    line-height: 60px;
+    position: absolute;
+}
+  .redes {
+    color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;
+     margin: -370px;
+     left: 920px;
+     position: absolute;
+}
+  .face {
+    margin: -320px;
+    left: 840px;
+    position: absolute;
+    width: 85px;
+}
+  .insta {
+    margin: -317px;
+    left: 920px;
+    position: absolute;
+    width: 55px;
+}
+  .wats {
+    margin: -317px;
+    left: 995px;
+    position: absolute;
+    width: 55px;
+}
+  .twitter {
+    margin: -320px;
+    left: 1070px;
+    position: absolute;
+    width: 50px;
+}
+  .pagamentos {
+    color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     margin: -370px;
+     left: 1290px;
+     position: absolute;
+}
+  .master {
+    margin: -330px;
+    left: 1250px;
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+}
+  .visa {
+    margin: -330px;
+    left: 1380px;
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+}
+  .elo {
+    margin: -330px;
+    left: 1480px;
+    position: absolute;
+}
+
+
+  
+
+  
+   
+  
+
+  
+
+
+   
+
+
+  
