@@ -1,20 +1,17 @@
 alert('Bem Vindo ao site Game Mania');
 console.log('Mensagem enviada pelo console');
 
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
+let count = 1;
+document.getElementById("radio1").checked = true;
+setInterval( function(){
+    nextImage();
+}, 3500)
 
-let idx = 0;
-
-function carrosel(){
-    idx++;
-    
-    if(idx > img.lenght - 1){
-        idx = 0;
+function nextImage(){
+    count++;
+    if(count>3){
+        count = 1;
     }
 
-    img.style.transform = `translateX(${-idx * 1345}px)`;
-
+    document.getElementById("radio"+count).checked = true;
 }
-
-setInterval(carrossel, 1800);
