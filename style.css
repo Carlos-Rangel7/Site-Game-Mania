@@ -226,6 +226,11 @@ body {
   left: 1045px;
   margin: -30px;
 }
+  .box {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
   
 .sessao {
   background-color: rgba(0, 0, 0, 0.02);
@@ -309,7 +314,7 @@ body {
   background-color: rgba(0, 0, 0, 0.02);
   width: 230px;
   height: 70px;
-  left: 430px;
+  left: 440px;
   position: absolute;
   margin: 310px;
   color: rgb(240, 240, 248);
@@ -450,6 +455,12 @@ width: 50px;
   position: absolute;
 }
 
+@media (max-widht:500px) {
+  .last {
+    display: none;
+  }
+  .
+}
 
   
 
